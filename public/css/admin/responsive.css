@@ -1,0 +1,187 @@
+@media screen and (max-width: 1575px) {
+    div.dt-buttons {
+        top: -90px !important;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .topnav input[type=text] {  
+        width: 200px;
+      }
+}
+
+@media screen and (max-width: 1200px) {
+    .topnav input[type=text] {  
+        width: 180px;
+      }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .menu-main {
+        background-color: #fff;
+        padding: 0 10px !important;
+        box-shadow: -8px 10px 8px 10px #ccc;
+        min-height: 970px;
+    }
+    .logo img {
+        margin-top: 25px !important;
+        width: 95%;
+    }
+    .customers-profile-menu ul li a {
+        color: #000;
+        text-decoration: none;
+        padding: 10px 13px !important;
+        display: block;
+        border-top: #eee solid 1px;
+        font-size: 15px;
+        transition: all ease 600ms;
+    }
+    .customers-profile-menu h4 {
+        margin-bottom: 7px;
+        padding: 10px 18px !important;
+        font-size: 16px;
+    }
+    .topnav input[type=text] {  
+        width: 185px
+      }
+      .at-accordion-or-tabs > li {
+        list-style: none;
+        
+        margin-bottom: 3px;
+        border: 1px solid #ccc !important;
+    }
+    .at-accordion-or-tabs > li > a {
+        display: block;
+        background: #fff;
+        text-decoration: none;
+        color: #000;
+        border: none;
+        padding: 6px;
+    }
+    .at-accordion-or-tabs > li > a:hover, .at-accordion-or-tabs > li > a.active {
+        background: #0069d9;
+        color: #fff;
+        padding: 8px;
+    }
+    .table-s {
+        overflow: scroll;
+    }
+  
+    div.dt-buttons {
+        top: -93px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+
+
+}
+@media screen and (max-width: 560px) {
+
+    .sidebar ul li a {
+        color: #000;
+        line-height: 19px;
+    }
+    .customers-profile {
+        margin-top: 10px;
+    }
+    .fc-header-title h2 {        
+        width: 100%;
+        background-color: #ccc;
+    }
+    .leads {
+        padding: 10px 13px;
+        min-height: 300px;
+        margin-top: 10px;
+    }
+    .at-accordion-or-tabs > li {
+        list-style: none;
+        padding: 0 !important;
+        margin-bottom: 3px;
+        border: 1px solid #ccc!important;
+        padding: 6px 11px !important;
+        display: block;
+    }
+    .at-accordion-or-tabs > li > a {
+        display: block;
+        background: #fff;
+        text-decoration: none;
+        color: #000;
+        padding: 10px 7px;
+        border: none;
+        display: block;
+    }
+    .fc-header td {
+        white-space: nowrap;
+        padding: 15px 5px 0px !important;
+    }
+    .fc-button-month.fc-state-default, .fc-button-agendaWeek.fc-state-default, .fc-button-agendaDay.fc-state-default {
+        min-width: 59px !important;
+        text-align: center;
+        transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+    }
+    .fc-header-title h2 {
+        margin-top: 0;
+        white-space: nowrap;
+        font-size: 23px !important;
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+    .topnav input[type=text] {     
+        width: 355px
+      }
+      .customers-profile {
+        padding: 0px;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    .topnav input[type=text] {
+  
+        width: 275px
+      }
+
+}
+@media screen and (max-width: 411px) {
+    .topnav input[type=text] {  
+        width: 239px;
+      }
+
+}
+
+@media screen and (max-width: 375px) {
+    .topnav input[type=text] {      
+        width: 200px
+      }
+      .top-right-liks ul li a {
+        list-style: none;
+        margin-left: 10px;
+        color: #fff;
+        font-size: 15px;
+        text-decoration: none;
+    }
+}
+@media screen and (max-width: 360px) {
+    .topnav input[type=text] {
+      
+        width: 157px
+      }
+}
+@media screen and (max-width: 320px) {
+    .topnav input[type=text] {      
+        width: 145px
+      }
+}
+@media screen and (max-width: 280px) {
+    .top-right-liks ul li a {
+        list-style: none;
+        margin-left: 6px;
+        color: #fff;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    .topnav input[type=text] {      
+        width: 108px
+      }
+
+}

@@ -1,0 +1,259 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Raleway:300,400,700');
+
+/* ===================================
+   Main Styles
+====================================== */
+
+body {
+	background-color: #f9f9f9;
+	padding: 0px !important;
+}
+html {
+  height: 100%;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+h1 {
+  color: #333;
+  letter-spacing: 0.03em;
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #282828;
+  letter-spacing: 0.1em;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #282828;
+  font-size: 30px;
+  letter-spacing: 0.03em;
+  line-height: 24px;
+}
+
+h4 {
+  font-size: 16px;
+  color: #282828;
+  letter-spacing: 0.06em;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+h5 {
+  font-size: 12px;
+  color: #333;
+  letter-spacing: 0.05em;
+}
+
+p {
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.spad {
+  padding: 50px 20px;
+}
+
+.theme-color,
+.intro-content h2 span,
+a.site-btn:hover,
+.site-btn:hover,
+.social a:hover,
+.cd-item span,
+.service-item i,
+.con-icon i {
+  color: #2196F3;
+}
+
+.theme-bg,
+a.site-btn,
+.site-btn,
+a.site-btn:focus,
+.site-btn:focus,
+.subscribe-area h2,
+.subform .subform-btn,
+.switch span,
+.switch.active span,
+#contact-form button {
+  background: #2196F3;
+}
+
+.theme-border,
+.con-icon {
+  border-color: #2196F3 !important;
+}
+
+
+/*------------------
+  Preloder
+--------------------*/
+.no-pad {
+	padding: 0px !important;
+	
+}
+.topbar {
+	background-color: #1564c0;
+	padding: 15px;
+}
+
+.top-rightside {
+	text-align: right;
+	color: #fff;
+}
+.top-search {
+	padding: 7px 20px;
+	border: none;
+	width: 300px;
+}
+.top-search-b {
+	padding: 7px 15px;
+	border: none;	
+}
+.top-rightside {
+	margin-top: -13px;
+	
+}
+.search-container {
+	float: right;
+	padding-right: 25px;
+
+
+}
+.top-rightside ul li {
+	float: right;
+	list-style: none;
+	padding: 5px 10px 0 10px;
+}
+
+
+
+.side-menu {
+	background-color: #ccc;
+	padding: 0px 0px 0px 0px; 
+	
+	
+	 min-height: 900px;
+}
+.side-menu ul {
+	padding: 0px;
+	
+}
+.side-menu ul li {
+	list-style: none;
+	padding: 0px;
+	padding: 15px 10px 15px 30px;
+	display: block;
+	
+	
+}
+.side-menu ul li a {
+	
+	color: #000;	
+}
+.side-menu ul li i {
+	margin-right: 7px;
+	color: #000;
+	
+}
+.side-menu h2 {
+	padding: 20px 0 0 20px;
+	font-size: 20px;
+	padding-bottom: 25px;
+	margin-bottom: 0px;
+	color: #000;
+	font-weight: 600;
+	
+}
+.rightside-main {
+	padding: 15px 0px 0 0;
+}
+
+.grocery-right-side-main {
+	padding: 20px 20px;
+}
+.grocery-right-side-main h4 {
+	padding: 0 0px;
+	margin-bottom: 25px;
+}
+.grocery-right-side-main h4 span {
+	color: #1685b4;
+}
+.grocery-right-side-main h3 {
+	margin-top: 35px;
+}
+
+.f-gd {
+	padding: 10px;
+	float: right;
+	margin-top: -40px;
+}
+.g-text {
+	padding-top: 15px;
+	border-top: #ccc solid 1px;
+	
+	margin-top: 35px;
+}
+.g-text i {
+	font-size: 100px;
+	color: #ccc;
+
+}
+.g-text h3 {
+	margin-top: 10px;
+	font-size: 20px;
+	
+	
+	
+}
+.g-text p {
+	margin-bottom: 0px;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

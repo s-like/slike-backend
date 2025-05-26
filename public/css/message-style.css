@@ -1,0 +1,347 @@
+body{
+    background-color: #f3f3f3;
+}
+.nav-pills .nav-link.active {
+    color: #007bff !important;
+    border-bottom: 2px solid #007bff !important;
+    background-color:transparent !important
+}
+.av-m {
+    width: 45px;
+    height: 45px;
+}
+.avatar {
+    text-align: center;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: #eee;
+    /* background-image: url(style.css); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.messenger-list-item td p {
+    color: #606679;
+}
+.messenger-list-item td {
+    padding: 10px;
+}
+.messenger-list-item td p {
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.messenger-list-item td span {
+    color: #cacaca;
+    font-weight: 400;
+    font-size: 13px;
+    
+}
+.msg_span{
+    width: 200px;
+    display: inline-block;
+}
+.lastMessageIndicator {
+    color: #2180f3 !important;
+}
+.messenger-list-item td p span {
+    float: right;
+}
+.messenger-list-item {
+    margin: 0;
+    width: 100%;
+    cursor: pointer;
+    transition: background .10s;
+}
+.left-message-bar{
+    background-color: #fff;
+}
+.messenger-list-item tr>td:first-child {
+    padding-right: 0;
+    width: 55px;
+}
+.message-row{
+    height: 100%;
+}
+.messenger-messagingView {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background: #fafaff;
+    padding: 0px;
+}
+
+.m-header-messaging {
+    background: #fff;
+    box-shadow: 0px 5px 6px rgb(0 0 0 / 6%);
+}
+
+.m-header {
+    padding: 10px 15px;
+    font-weight: 600;
+    background: transparent;
+}
+.m-header a, .m-header a:hover, .m-header a:focus {
+    text-decoration: none;
+    color: #606679;
+}
+.av-s {
+    width: 32px;
+    height: 32px;
+}
+.m-header-right {
+    display: inline-flex;
+    float: right;
+}
+.messenger-messagingView .m-body {
+    padding-top: 15px;
+    height: calc(100% - 90px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.messages {
+    padding: 5px 0px;
+}
+.message-card {
+    display: inline-flex;
+    /* margin: 2px 15px; */
+    margin: 2px 0px;
+    width: calc(100% - 30px);
+}
+.mc-sender {
+    direction: rtl;
+}
+.message-card div {
+    margin-top: 0px;
+}
+.mc-sender p {
+    background: #2180f3 !important;
+}
+.mc-sender p sub {
+    color: rgba(255, 255, 255, 0.67);
+}
+.message-card p {
+    background: #ffffff;
+    color: #656b75;
+    box-shadow: 0px 6px 11px rgb(18 67 105 / 3%);
+}
+.mc-sender p {
+    direction: ltr;
+    color: #fff !important;
+}
+.message-card p sub:before {
+    content: '';
+    background: transparent;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+.message-card p {
+    margin: 0;
+    padding: 6px 15px;
+    padding-bottom: 5px;
+    max-width: 80%;
+    border-radius: 20px;
+    word-break: break-word;
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+.svg-inline--fa.fa-w-6 {
+    width: .375em;
+}
+.delete-dots {
+    font-size: 13px;
+    /* position: relative;
+    right: -5px;
+    top: 10px; */
+}
+.selected-delete{
+    display: none;
+    background: red;
+    color: #fff;
+    padding: 7px 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.m-send {
+    font-size: 14px;
+    width: 100%;
+    border: none;
+    padding: 10px 0px;
+    outline: none;
+    resize: none;
+    background: transparent;
+    font-family: sans-serif;
+    height: 36px;
+    max-height: 200px;
+}
+.m-send {
+    padding-left: 15px;
+}
+.m-send {
+    color: #333;
+}
+#message-form>button {
+    height: 40px;
+}
+.messenger-sendCard button, .messenger-sendCard button:active, .messenger-sendCard button:focus {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+.messenger-sendCard button svg {
+    color: #2180f3;
+}
+.messenger-sendCard svg {
+    margin: 9px 10px;
+    color: #bdcbd6;
+    cursor: pointer;
+    font-size: 21px;
+    transition: transform .15s;
+}
+.messenger-sendCard form {
+    width: 100%;
+    display: inline-flex;
+    margin: 0;
+}
+.messenger-sendCard {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.messenger-sendCard {
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+.m-header-messaging {
+    background: #fff;
+}
+footer, .footer {
+    position: relative;
+    overflow: hidden;
+    background-color: #e1effa;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b9aa8;
+    width: 100%;
+}
+.typing-dots .dot-1 {
+    -webkit-animation-delay: 100ms;
+    animation-delay: 100ms;
+}
+.dot {
+    width: 8px;
+    height: 8px;
+    background: #bcc1c6;
+    display: inline-block;
+    border-radius: 50%;
+    right: 0px;
+    bottom: 0px;
+    position: relative;
+    animation: jump 1s infinite;
+}
+.typing-indicator{
+    height:65px;
+    visibility: hidden;
+}
+
+/**
+ * ==============================================
+ * Dot Flashing
+ * ==============================================
+ */
+ .dot-flashing {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #9880ff;
+    color: #9880ff;
+    animation: dotFlashing 1s infinite linear alternate;
+    animation-delay: .5s;
+  }
+  
+  .dot-flashing::before, .dot-flashing::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+  }
+  
+  .dot-flashing::before {
+    left: -15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #9880ff;
+    color: #9880ff;
+    animation: dotFlashing 1s infinite alternate;
+    animation-delay: 0s;
+  }
+  
+  .dot-flashing::after {
+    left: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #9880ff;
+    color: #9880ff;
+    animation: dotFlashing 1s infinite alternate;
+    animation-delay: 1s;
+  }
+  
+  @keyframes dotFlashing {
+    0% {
+      background-color: #9880ff;
+    }
+    50%,
+    100% {
+      background-color: #ebe6ff;
+    }
+  }
+  .loading{
+    position: relative;
+    left: 47%;
+    display: none;
+  }
+  .messenger-list-item td b {
+    background: #2180f3;
+}
+  .messenger-list-item td b {
+    float: right;
+    color: #fff;
+    padding: 0px 4px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+.overflow-ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.delete-convo{
+    cursor: pointer;
+}
+.chk-box{
+    padding:10px 5px;
+    display: none;
+}
+.active-row{
+    background: #e3e1e1;
+    border-radius: 5px;
+}
+
+@media (max-width: 991px){
+    .messenger-list-item td p span {
+        float: none;
+    }
+}

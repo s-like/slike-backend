@@ -1,0 +1,105 @@
+.btn.store-btn,
+.btn.store-btn.fill-style:hover{
+	border-color: #fff;
+}
+
+.btn.store-btn:hover,
+.btn.store-btn.fill-style{
+	color: #9b031b;
+}
+
+.btn.store-btn:hover svg, 
+.btn.store-btn:hover svg path,
+.btn.store-btn.fill-style svg,
+.btn.store-btn.fill-style svg path{
+    fill: #9b031b;
+}
+
+.btn:hover,
+.pricing-footer a:hover,
+.btn.fill-style{
+    background-color: #9b031b;
+    border-color: #9b031b;
+}
+
+.icon-box-icon i,
+.icon-box.awf-item .icon-box-icon i{
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.video-sec .overlay{
+	background: -moz-linear-gradient( 90deg, rgb(50,73,214) 0%, rgb(13,197,173) 100%);
+	background: -webkit-linear-gradient( 90deg, rgb(50,73,214) 0%, rgb(13,197,173) 100%);
+	background: -ms-linear-gradient( 90deg, rgb(50,73,214) 0%, rgb(13,197,173) 100%);
+	background: linear-gradient( 90deg, rgb(50,73,214) 0%, rgb(13,197,173) 100%);
+}
+
+.video-play-btn a{
+	background: -webkit-linear-gradient( -140deg, rgb(36,228,203) 0%, rgb(10,186,163) 100%);
+	background: -ms-linear-gradient( -140deg, rgb(36,228,203) 0%, rgb(10,186,163) 100%);
+	background: linear-gradient( -140deg, rgb(36,228,203) 0%, rgb(10,186,163) 100%);
+}
+
+.pricing-body ul li i.icon_check{
+	color: #9a0217;
+}
+
+.pricing-badge .badge-name{
+	background-color: #9a0217;
+}
+
+.pricing-badge .badge-name:after{
+	border-top-color: #9a0217;
+	border-bottom-color: #9a0217;
+}
+
+.s-title::after {
+    background-color: #fff;
+  	
+}
+
+.testimonial-btn-next:hover, 
+.testimonial-btn-prev:hover{
+	border-color: #9a0217;
+	background-color: #9a0217;
+}
+
+.blog-post .post-title a:hover,
+.blog-post .post-meta a:hover,
+.f-nav li a:hover,
+.f-newsletter .input-group-btn button:hover,
+.navbar.sticky-nav .navbar-nav li a:hover, 
+.navbar.sticky-nav .navbar-nav li a.active,
+.f-widget .f-list li a:hover,
+.social-profile li a:hover{
+    color: #9a0217;
+}
+
+.copyright a{
+    color: #fff;
+}
+
+.navbar.sticky-nav .navbar-nav li a.nav-link-scroll::after, 
+.navbar.sticky-nav .navbar-nav li a.nav-link-scroll::before {
+    background-color: #9a0217;
+}
+
+.scroll-top{
+	
+    
+    background: linear-gradient(50deg, rgb(62,52,196) 0%, rgb(158,0,19) 100%);
+}
+
+
+.m-s-input:before{
+	background: -webkit-linear-gradient( -90deg, rgb(13,197,173) 0%, rgb(50,73,214) 100%);
+    background: linear-gradient( -90deg, rgb(13,197,173) 0%, rgb(50,73,214) 100%);
+}
+
+.btn,
+.btn.fill-style:hover{
+	color: #99a1af;
+	border-color: #99a1af
+}
